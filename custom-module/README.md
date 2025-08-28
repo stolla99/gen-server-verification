@@ -1,17 +1,20 @@
 <a id="readme-top"></a>
-
-# Custom Module
+<a id="readme-top"></a>
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Custom Modules</h3>
+<p><br /></p>
+</div>
 
 This folder contains **custom operators for TLA⁺**, implemented in Java. These operators extend the functionality of TLA⁺ specifications and can be integrated into the TLA⁺ IDE (TLA Toolbox) through the override mechanism.  
-
----
 
 ## Purpose
 - Provide reusable **custom operators** for TLA⁺ that can be referenced in specifications.  
 - Allow tighter integration of specific logic into the **TLC model checker**.  
 - Serve as an extension point beyond the built-in operators of TLA⁺.  
-
----
+<p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
 ## Build and Override Operations
 
@@ -43,7 +46,7 @@ To build and incorporate the custom operators into the TLA⁺ IDE:
       -workers 32 
       -fpmem 1.0 -gzip gen_server_behaviour_simple.tla
    ```
----
+<p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
 ## Usage in TLA⁺
 Once the module is built and registered in the TLA Toolbox, the custom operators can be directly used in your `.tla` specifications as if they were native operators. 

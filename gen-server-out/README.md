@@ -1,6 +1,11 @@
 <a id="readme-top"></a>
-
-# GenServer Erlang generated code
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">GenServer Erlang Generated Code</h3>
+<p><br /></p>
+</div>
 
 This folder contains the automatically generated Erlang code for the GenServer, produced by the translation pipeline from the TLA⁺/PlusCal specification. The generated code adheres to the Erlang/OTP conventions and is designed to be directly usable in Erlang applications.
 
@@ -8,6 +13,7 @@ This folder contains the automatically generated Erlang code for the GenServer, 
 - Erlang/OTP 24 or higher
 - Rebar3 build tool
 - QuickCheck valid license (for running QuickCheck tests)
+<p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
 ## Usage
 1. To use the generated GenServer code, follow these steps:
