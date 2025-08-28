@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -88,9 +89,12 @@ A formal TLA⁺/PlusCal specification of the Erlang/OTP GenServer was developed 
 
 <!-- CONTACT -->
 ## Contact
-Arne Stoll - arne.stoll.1@outlook.de
-Repository-Link: [stolla99/gen-server-verification](https://github.com/stolla99/gen-server-verification#))
+
+ - Arne Stoll - arne.stoll.1@outlook.de 
+ - Repository-Link: [stolla99/gen-server-verification](https://github.com/stolla99/gen-server-verification#)
 <p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+## Credits
+[othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
+<p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
+
