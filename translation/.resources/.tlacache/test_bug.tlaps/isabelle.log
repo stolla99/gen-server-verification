@@ -1,0 +1,16 @@
+% file=.tlacache/test_bug.tlaps/test_bug; PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Erlang OTP/bin:/mnt/c/Program Files/Erlang OTP/rebar3:/mnt/c/Users/arnes/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/arnes/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/arnes/gitkraken/bin:/mnt/c/Users/arnes/AppData/Local/gitkraken/bin:/mnt/c/Program Files/JetBrains/PyCharm 2024.3.5/bin:/usr/local/bin:/usr/local/lib/tlaps/bin'; isabelle-process -r -q -e "(use_thy \"$file\"; writeln \"((TLAPS SUCCESS))\");" TLA+
+> val it = (): unit
+
+val commit = fn: unit -> bool
+
+Loading theory "test_bug"
+
+*** TLAPS PARSED
+
+
+
+((TLAPS SUCCESS))
+
+val it = (): unit
+
+ML> 
