@@ -1,0 +1,53 @@
+ARGS: cfgs
+Setting java path
+Starting model check...
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Running breadth-first search Model-Checking with fp 74 and seed 5375816885646418508 with 32 workers on 32 cores with 163840MB heap and 64MB offheap memory [pid: 774096] (Linux 4.18.0-553.62.1.el8_10.x86_64 amd64, Red Hat, Inc. 21.0.8 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /scratch/stolla/models/tlc_large_P/gen_server_behaviour_simple.tla
+
+Unrecoverable error:
+ -- Illegal lexeme `§' found at
+    line 66, column 3.
+
+Parsing file /tmp/Naturals.tla
+Parsing file /tmp/Sequences.tla
+Parsing file /tmp/TLC.tla
+Parsing file /tmp/FiniteSets.tla
+Parsing file /tmp/Typecheck.tla
+Parsing file /tmp/Timeouts.tla
+Parsing file /scratch/stolla/models/tlc_large_P/GenServerUtil.tla
+Parsing file /scratch/stolla/models/tlc_large_P/ShiVizExt.tla
+Parsing file /tmp/Integers.tla
+Parsing file /tmp/Json.tla
+Parsing file /tmp/Toolbox.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module Typecheck
+Semantic processing of module Timeouts
+Semantic processing of module Json
+Semantic processing of module GenServerUtil
+Semantic processing of module Toolbox
+Semantic processing of module ShiVizExt
+Semantic processing of module gen_server_behaviour_simple
+Starting... (2025-07-28 01:42:16)
+Implied-temporal checking--satisfiability problem has 6 branches.
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2025-07-28 01:42:16.
+Progress(19) at 2025-07-28 01:42:19: 16,953 states generated (16,953 s/min), 7,244 distinct states found (7,244 ds/min), 2,088 states left on queue.
+Progress(51) at 2025-07-28 01:43:20: 781,244 states generated (764,291 s/min), 307,875 distinct states found (300,631 ds/min), 18,542 states left on queue.
+Progress(88) at 2025-07-28 01:44:13: 1,356,756 states generated, 526,798 distinct states found, 0 states left on queue.
+Checking 6 branches of temporal properties for the complete state space with 3160788 total distinct states at (2025-07-28 01:44:13)
+Finished checking temporal properties in 03min 14s at 2025-07-28 01:47:28
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.4E-8
+  based on the actual fingerprints:  val = 4.0E-8
+1356756 states generated, 526798 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 88.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 8 and the 95th percentile is 2).
+Finished in 05min 32s at (2025-07-28 01:47:45)
+Model checking done...
