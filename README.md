@@ -49,7 +49,7 @@
 
 This repository contains the artifacts generated and used during the work on my Master’s thesis. It includes custom modules, automatically generated Erlang code, test results, translation code, and batch scripts. 
 
-A formal TLA⁺/PlusCal specification of the Erlang/OTP GenServer was developed and verified through model checking, and this specification was extended with a translation pipeline that automatically generates correct and usable Erlang GenServer code, which successfully passed the official OTP test suite and additional QuickCheck tests.  
+A formal TLA⁺/PlusCal specification of the Erlang/OTP GenServer was developed and verified through model checking, and this specification was extended with a translation pipeline that automatically generates correct and usable Erlang GenServer code, whichreadme successfully passed the official OTP test suite and additional QuickCheck tests.  
 
 <p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
