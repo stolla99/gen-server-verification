@@ -40,11 +40,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./resources/comparison.png)
+Pipeline overview:
+![./resources/pipeline.png](https://github.com/stolla99/gen-server-verification/blob/readme/resources/pipeline.png)
 
 This repository contains the artifacts generated and used during the work on my Master’s thesis. It includes custom modules, automatically generated Erlang code, test results, translation code, and batch scripts. 
 
 A formal TLA⁺/PlusCal specification of the Erlang/OTP GenServer was developed and verified through model checking, and this specification was extended with a translation pipeline that automatically generates correct and usable Erlang GenServer code, whichreadme successfully passed the official OTP test suite and additional QuickCheck tests.  
+
+For the generated GenServer that was derived from the TLA⁺ specification compared to the original implementation, the following differences were observed:
+![./resources/comparison.png](https://github.com/stolla99/gen-server-verification/blob/readme/resources/comparison.png)
 
 <p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
