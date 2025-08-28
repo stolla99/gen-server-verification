@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Unexpected I/O log</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<br />
+<h3>Unexpected I/O</h3>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_behaviour_simple_SUITE:spec_init/1 2025-08-22 14:00:53.995 ***</b>
+=CRASH REPORT==== 22-Aug-2025::14:00:53.995084 ===
+  crasher:
+    initial call: gen_server_behaviour_simple_SUITE:spec_init_global_default_timeout/2
+    pid: &lt;0.868.0&gt;
+    registered_name: []
+    exception exit: {#Ref&lt;0.2888510000.2327838722.79046&gt;,1007598,ok,
+                     [{gen_server_behaviour_simple_SUITE,spec_init}],
+                     []}
+      in function  util:terminate/10 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/gen_server_generation/util.erl:190)
+      in call from gen_server_behaviour_simple:loop_0/1 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/gen_server_generation/gen_server_behaviour_simple.erl:123)
+    ancestors: [&lt;0.852.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 201
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 14:00:16<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{config,[{ct_config_plain,["/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/common_test/test_server/ts.config",
+                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/common_test/test_server/ts.unix.config"]}]}.
+{event_handler,[]}.
+{ct_hooks,[]}.
+{ct_hooks_order,undefined}.
+{enable_builtin_hooks,undefined}.

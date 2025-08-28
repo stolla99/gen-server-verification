@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Unexpected I/O log</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<br />
+<h3>Unexpected I/O</h3>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:cast/1 2025-08-22 15:15:07.691 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:15:07.691504 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.892.0&gt;
+    registered_name: my_test_name
+    exception exit: {&lt;0.890.0&gt;,stopped}
+      in function  gen_server:handle_common_reply/5 (gen_server.erl:2562)
+    ancestors: [&lt;0.890.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3482
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:info/1 2025-08-22 15:15:10.981 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:15:10.981256 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.910.0&gt;
+    registered_name: my_test_name
+    exception exit: {&lt;0.908.0&gt;,stopped_info}
+      in function  gen_server:handle_common_reply/5 (gen_server.erl:2562)
+    ancestors: [&lt;0.908.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3260
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:abcast/1 2025-08-22 15:15:11.030 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:15:11.029970 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.915.0&gt;
+    registered_name: my_test_name
+    exception exit: {&lt;0.913.0&gt;,stopped}
+      in function  gen_server:handle_common_reply/5 (gen_server.erl:2562)
+    ancestors: [&lt;0.913.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3482
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_SUITE 2025-08-22 15:15:32.559 ***</b>
+=ERROR REPORT==== 22-Aug-2025::15:15:32.558858 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client <0.967.0> stacktrace
+** [{gen_server,mc_recv,5,[{file,"gen_server.erl"},{line,2057}]},
+    {gen_server,multi_call,4,[{file,"gen_server.erl"},{line,2013}]},
+    {gen_server_SUITE,multicall,1,[{file,"gen_server_SUITE.erl"},{line,1793}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during multi_call_parallel in gen_server_SUITE 2025-08-22 15:15:32.559 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:15:32.559297 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: <0.969.0>
+    registered_name: my_test_name
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [<0.967.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.967.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 6839
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:spec_init/1 2025-08-22 15:17:11.232 ***</b>
+=ERROR REPORT==== 22-Aug-2025::15:17:11.232034 ===
+** Generic server hurra terminating 
+** Last message in was {'EXIT',&lt;0.5369.0&gt;,
+                               {#Ref&lt;0.726404501.1534066689.95491&gt;,1007515,ok,
+                                [{gen_server_SUITE,spec_init}],
+                                []}}
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** {#Ref&lt;0.726404501.1534066689.95491&gt;,1007515,ok,
+    [{gen_server_SUITE,spec_init}],
+    []}
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:spec_init/1 2025-08-22 15:17:11.232 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:17:11.232333 ===
+  crasher:
+    initial call: gen_server_SUITE:spec_init_global_default_timeout/2
+    pid: &lt;0.5388.0&gt;
+    registered_name: []
+    exception exit: {#Ref&lt;0.726404501.1534066689.95491&gt;,1007515,ok,
+                     [{gen_server_SUITE,spec_init}],
+                     []}
+      in function  gen_server:decode_msg/6 (gen_server.erl:2379)
+    ancestors: [&lt;0.5369.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 4180
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:spec_init_local_registered_parent/1 2025-08-22 15:17:11.278 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:17:11.278692 ===
+  crasher:
+    initial call: gen_server_SUITE:spec_init_local/2
+    pid: &lt;0.5395.0&gt;
+    registered_name: my_server
+    exception exit: {&lt;0.5393.0&gt;,stopped}
+      in function  gen_server:handle_common_reply/5 (gen_server.erl:2562)
+    ancestors: [foobar]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5393.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3215
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:spec_init_global_registered_parent/1 2025-08-22 15:17:11.324 ***</b>
+=CRASH REPORT==== 22-Aug-2025::15:17:11.324349 ===
+  crasher:
+    initial call: gen_server_SUITE:spec_init_global/2
+    pid: &lt;0.5400.0&gt;
+    registered_name: []
+    exception exit: {&lt;0.5398.0&gt;,stopped}
+      in function  gen_server:handle_common_reply/5 (gen_server.erl:2562)
+    ancestors: [&lt;0.5398.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5398.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3438
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 15:13:50<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

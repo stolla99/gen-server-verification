@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_SUITE:start result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_suite.src.html#start-1">gen_server_SUITE:start/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.286.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/gen_server_suite.start.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28"
+
+=== Started at 2025-08-22 15:13:51
+
+<br />
+anonymous
+
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.585 ***</b><a id=e-1 class="link-to-entry" href="#e-1">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.585033 ===
+** Generic server &lt;0.294.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,195}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.601 ***</b><a id=e-2 class="link-to-entry" href="#e-2">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.585736 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.294.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 29
+    reductions: 6292
+  neighbours:
+
+
+</pre></div>
+<pre>
+try init timeout
+
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.688 ***</b><a id=e-3 class="link-to-entry" href="#e-3">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.688011 ===
+** Generic server &lt;0.297.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,204}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+init(sleep)
+
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.689 ***</b><a id=e-4 class="link-to-entry" href="#e-4">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.688689 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.297.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6282
+  neighbours:
+
+
+</pre></div>
+<pre>
+try init ignore
+
+init(ignore)
+
+try init shutdown
+
+init(error) -&gt; foobar
+
+try init stop
+
+init(stop)
+
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.794 ***</b><a id=e-5 class="link-to-entry" href="#e-5">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.793948 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.303.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:init_it/6 (gen_server.erl:2257)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 69
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.798 ***</b><a id=e-6 class="link-to-entry" href="#e-6">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.797697 ===
+** Generic server &lt;0.305.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,225}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.799 ***</b><a id=e-7 class="link-to-entry" href="#e-7">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.798761 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.305.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.292.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6285
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.802 ***</b><a id=e-8 class="link-to-entry" href="#e-8">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.802125 ===
+** Generic server &lt;0.307.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,237}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.804 ***</b><a id=e-9 class="link-to-entry" href="#e-9">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.803595 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.307.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6280
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.806 ***</b><a id=e-10 class="link-to-entry" href="#e-10">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.805878 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,253}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.806 ***</b><a id=e-11 class="link-to-entry" href="#e-11">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.806426 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.311.0&gt;
+    registered_name: my_test_name
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6338
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.909 ***</b><a id=e-12 class="link-to-entry" href="#e-12">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.909128 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,267}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.910 ***</b><a id=e-13 class="link-to-entry" href="#e-13">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.909741 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.314.0&gt;
+    registered_name: my_test_name
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.292.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6337
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.911 ***</b><a id=e-14 class="link-to-entry" href="#e-14">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.910866 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,283}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.911 ***</b><a id=e-15 class="link-to-entry" href="#e-15">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.911308 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.316.0&gt;
+    registered_name: my_test_name
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6336
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.912 ***</b><a id=e-16 class="link-to-entry" href="#e-16">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:51.912427 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen,do_for_proc,2,[{file,"gen.erl"},{line,592}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,299}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:51.913 ***</b><a id=e-17 class="link-to-entry" href="#e-17">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:51.913267 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.318.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6756
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.014 ***</b><a id=e-18 class="link-to-entry" href="#e-18">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:52.014510 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen,do_for_proc,2,[{file,"gen.erl"},{line,592}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,311}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.015 ***</b><a id=e-19 class="link-to-entry" href="#e-19">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:52.015141 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.323.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.292.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6758
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.017 ***</b><a id=e-20 class="link-to-entry" href="#e-20">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:52.017441 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen,do_for_proc,2,[{file,"gen.erl"},{line,592}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,327}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.018 ***</b><a id=e-21 class="link-to-entry" href="#e-21">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:52.018380 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.326.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6756
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.020 ***</b><a id=e-22 class="link-to-entry" href="#e-22">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:52.020013 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen,do_for_proc,2,[{file,"gen.erl"},{line,592}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,344}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.021 ***</b><a id=e-23 class="link-to-entry" href="#e-23">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:52.020760 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.329.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6747
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.122 ***</b><a id=e-24 class="link-to-entry" href="#e-24">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:13:52.122268 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.292.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen,do_for_proc,2,[{file,"gen.erl"},{line,592}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,start,1,[{file,"gen_server_SUITE.erl"},{line,357}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:start/1 2025-08-22 15:13:52.122 ***</b><a id=e-25 class="link-to-entry" href="#e-25">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:13:52.122778 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.334.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.292.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.292.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6739
+  neighbours:
+
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 15:13:52
+=== successfully completed test case
+=== === Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 15:13:51<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

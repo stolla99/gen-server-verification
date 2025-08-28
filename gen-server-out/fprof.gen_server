@@ -1,0 +1,78 @@
+%% Analysis results:
+{  analysis_options,
+ [{callers, true},
+  {sort, acc},
+  {totals, false},
+  {details, true}]}.
+
+%                                               CNT       ACC       OWN        
+[{ totals,                                     13596,   95.456,   69.277}].  %%%
+
+
+%                                               CNT       ACC       OWN        
+[{ "<0.263.0>",                                13596,undefined,   69.277}].   %%
+
+{[{undefined,                                     0,   95.456,    0.002}],     
+ { {fprof,apply_start_stop,4},                    0,   95.456,    0.002},     %
+ [{{tester,benchmark,4},                          1,   95.454,    0.002},      
+  {suspend,                                       1,    0.000,    0.000}]}.    
+
+{[{{fprof,apply_start_stop,4},                    1,   95.454,    0.002},      
+  {{tester,benchmark,4},                       1500,    0.000,    9.941}],     
+ { {tester,benchmark,4},                       1501,   95.454,    9.943},     %
+ [{{gen_server,call,2},                        1501,   85.509,    9.464},      
+  {suspend,                                       2,    0.002,    0.000},      
+  {{tester,benchmark,4},                       1500,    0.000,    9.941}]}.    
+
+{[{{tester,benchmark,4},                       1501,   85.509,    9.464}],     
+ { {gen_server,call,2},                        1501,   85.509,    9.464},     %
+ [{{gen,call,3},                               1501,   76.045,    4.920}]}.    
+
+{[{{gen_server,call,2},                        1501,   76.045,    4.920}],     
+ { {gen,call,3},                               1501,   76.045,    4.920},     %
+ [{{gen,call,4},                               1501,   71.120,    3.447},      
+  {garbage_collect,                               5,    0.005,    0.005}]}.    
+
+{[{{gen,call,3},                               1501,   71.120,    3.447}],     
+ { {gen,call,4},                               1501,   71.120,    3.447},     %
+ [{{gen,do_call,4},                            1501,   67.673,   25.462}]}.    
+
+{[{{gen,call,4},                               1501,   67.673,   25.462}],     
+ { {gen,do_call,4},                            1501,   67.673,   25.462},     %
+ [{suspend,                                    1468,   26.177,    0.000},      
+  {{erlang,demonitor,2},                       1501,    5.324,    5.234},      
+  {{erlang,send,3},                            1501,    5.281,    4.953},      
+  {{erlang,monitor,3},                         1501,    5.219,    4.820},      
+  {garbage_collect,                              46,    0.210,    0.210}]}.    
+
+{[{{gen,do_call,4},                            1468,   26.177,    0.000},      
+  {{tester,benchmark,4},                          2,    0.002,    0.000},      
+  {{fprof,apply_start_stop,4},                    1,    0.000,    0.000}],     
+ { suspend,                                    1471,   26.179,    0.000},     %
+ [ ]}.
+
+{[{{gen,do_call,4},                            1501,    5.324,    5.234}],     
+ { {erlang,demonitor,2},                       1501,    5.324,    5.234},     %
+ [{garbage_collect,                              14,    0.090,    0.090}]}.    
+
+{[{{gen,do_call,4},                            1501,    5.281,    4.953}],     
+ { {erlang,send,3},                            1501,    5.281,    4.953},     %
+ [{garbage_collect,                              23,    0.328,    0.328}]}.    
+
+{[{{gen,do_call,4},                            1501,    5.219,    4.820}],     
+ { {erlang,monitor,3},                         1501,    5.219,    4.820},     %
+ [{garbage_collect,                              29,    0.399,    0.399}]}.    
+
+{[{{erlang,monitor,3},                           29,    0.399,    0.399},      
+  {{erlang,send,3},                              23,    0.328,    0.328},      
+  {{gen,do_call,4},                              46,    0.210,    0.210},      
+  {{erlang,demonitor,2},                         14,    0.090,    0.090},      
+  {{gen,call,3},                                  5,    0.005,    0.005}],     
+ { garbage_collect,                             117,    1.032,    1.032},     %
+ [ ]}.
+
+{[ ],
+ { undefined,                                     0,    0.000,    0.000},     %
+ [{{fprof,apply_start_stop,4},                    0,   95.456,    0.002}]}.    
+
+

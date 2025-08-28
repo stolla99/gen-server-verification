@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_SUITE:format_log_with_process_label result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_suite.src.html#format_log_with_process_label-1">gen_server_SUITE:format_log_with_process_label/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.286.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/gen_server_suite.format_log_with_process_label.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28"
+
+=== Started at 2025-08-22 15:17:18
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2025-08-22 15:17:18.640 ***</b><a id=e-398 class="link-to-entry" href="#e-398">&#x1f517;</a>
+F1: ** Generic server ~tp terminating 
+** Process label == ~tp~n** Last message in was ~tp~n** When Server state == ~tp~n** Reason for termination ==~n** ~tp~n** Client ~tp stacktrace~n** ~tp~n
+A1: [<0.6136.0>,
+     {some_id,#{term => [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}},
+     dummy_msg,dummy_state,dummy_reason,clientname,[]]
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2025-08-22 15:17:18.640 ***</b><a id=e-399 class="link-to-entry" href="#e-399">&#x1f517;</a>
+Str2: Generic server <0.6136.0> terminating. Label: {some_id,#{term => [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}}. Reason: dummy_reason. Last message: dummy_msg. State: dummy_state. Client clientname stacktrace: [].
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2025-08-22 15:17:18.640 ***</b><a id=e-400 class="link-to-entry" href="#e-400">&#x1f517;</a>
+Str3: ** Generic server <0.6136.0> terminating 
+** Process label == {some_id,#{term => [1,2,3,4,5,6|...]}}
+** Last message in was dummy_msg
+** When Server state == dummy_state
+** Reason for termination ==
+** dummy_reason
+** Client clientname stacktrace
+** []
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2025-08-22 15:17:18.640 ***</b><a id=e-401 class="link-to-entry" href="#e-401">&#x1f517;</a>
+Str4: Generic server <0.6136.0> terminating. Label: {some_id,#{term => [1,2,3,4,5,6|...]}}. Reason: dummy_reason. Last message: dummy_msg. State: dummy_state. Client clientname stacktrace: [].
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 15:17:18
+=== successfully completed test case
+=== === Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 15:17:18<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

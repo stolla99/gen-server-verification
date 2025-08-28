@@ -1,0 +1,2498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_copy_SUITE:start_event_timeout result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_copy_suite.src.html#start_event_timeout-1">gen_server_copy_SUITE:start_event_timeout/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.273.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/gen_server_copy_suite.start_event_timeout.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49"
+
+=== Started at 2025-08-22 16:14:09
+
+<br />
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:09.550 ***</b><a id=e-26 class="link-to-entry" href="#e-26">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:09.550021 ===
+** Generic server &lt;0.327.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:09.550 ***</b><a id=e-27 class="link-to-entry" href="#e-27">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:09.550430 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.327.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8077
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:10.555 ***</b><a id=e-28 class="link-to-entry" href="#e-28">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:10.554985 ===
+** Generic server &lt;0.329.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:10.555 ***</b><a id=e-29 class="link-to-entry" href="#e-29">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:10.555540 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.329.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8077
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:11.059 ***</b><a id=e-30 class="link-to-entry" href="#e-30">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:11.058982 ===
+** Generic server &lt;0.332.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:11.059 ***</b><a id=e-31 class="link-to-entry" href="#e-31">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:11.059489 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.332.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8176
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:12.065 ***</b><a id=e-32 class="link-to-entry" href="#e-32">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:12.065125 ===
+** Generic server &lt;0.335.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:12.066 ***</b><a id=e-33 class="link-to-entry" href="#e-33">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:12.065839 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.335.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8179
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:12.568 ***</b><a id=e-34 class="link-to-entry" href="#e-34">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:12.567981 ===
+** Generic server &lt;0.338.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:12.568 ***</b><a id=e-35 class="link-to-entry" href="#e-35">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:12.568367 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.338.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8178
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:13.574 ***</b><a id=e-36 class="link-to-entry" href="#e-36">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:13.573991 ===
+** Generic server &lt;0.341.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:13.574 ***</b><a id=e-37 class="link-to-entry" href="#e-37">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:13.574407 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.341.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8279
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:14.077 ***</b><a id=e-38 class="link-to-entry" href="#e-38">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:14.077026 ===
+** Generic server &lt;0.344.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:14.077 ***</b><a id=e-39 class="link-to-entry" href="#e-39">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:14.077643 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.344.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8089
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:15.083 ***</b><a id=e-40 class="link-to-entry" href="#e-40">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:15.082984 ===
+** Generic server &lt;0.347.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:15.083 ***</b><a id=e-41 class="link-to-entry" href="#e-41">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:15.083359 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.347.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8087
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:15.586 ***</b><a id=e-42 class="link-to-entry" href="#e-42">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:15.585956 ===
+** Generic server &lt;0.350.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:15.586 ***</b><a id=e-43 class="link-to-entry" href="#e-43">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:15.586364 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.350.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8083
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:16.592 ***</b><a id=e-44 class="link-to-entry" href="#e-44">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:16.592173 ===
+** Generic server &lt;0.354.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:16.593 ***</b><a id=e-45 class="link-to-entry" href="#e-45">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:16.592921 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.354.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8085
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:17.095 ***</b><a id=e-46 class="link-to-entry" href="#e-46">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:17.095129 ===
+** Generic server &lt;0.356.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:17.095 ***</b><a id=e-47 class="link-to-entry" href="#e-47">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:17.095476 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.356.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8089
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:18.101 ***</b><a id=e-48 class="link-to-entry" href="#e-48">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:18.101053 ===
+** Generic server &lt;0.359.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:18.101 ***</b><a id=e-49 class="link-to-entry" href="#e-49">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:18.101551 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.359.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8092
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:18.605 ***</b><a id=e-50 class="link-to-entry" href="#e-50">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:18.605076 ===
+** Generic server &lt;0.362.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:18.605 ***</b><a id=e-51 class="link-to-entry" href="#e-51">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:18.605567 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.362.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8338
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:19.611 ***</b><a id=e-52 class="link-to-entry" href="#e-52">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:19.611057 ===
+** Generic server &lt;0.365.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:19.611 ***</b><a id=e-53 class="link-to-entry" href="#e-53">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:19.611507 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.365.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8340
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:20.115 ***</b><a id=e-54 class="link-to-entry" href="#e-54">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:20.115040 ===
+** Generic server &lt;0.368.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:20.115 ***</b><a id=e-55 class="link-to-entry" href="#e-55">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:20.115514 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.368.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8334
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:21.121 ***</b><a id=e-56 class="link-to-entry" href="#e-56">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:21.121302 ===
+** Generic server &lt;0.371.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:21.121 ***</b><a id=e-57 class="link-to-entry" href="#e-57">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:21.121729 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.371.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8341
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:21.624 ***</b><a id=e-58 class="link-to-entry" href="#e-58">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:21.623946 ===
+** Generic server &lt;0.374.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:21.624 ***</b><a id=e-59 class="link-to-entry" href="#e-59">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:21.624372 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.374.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8335
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:22.629 ***</b><a id=e-60 class="link-to-entry" href="#e-60">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:22.628995 ===
+** Generic server &lt;0.377.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:22.629 ***</b><a id=e-61 class="link-to-entry" href="#e-61">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:22.629426 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.377.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8342
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:23.132 ***</b><a id=e-62 class="link-to-entry" href="#e-62">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:23.131991 ===
+** Generic server &lt;0.380.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:23.132 ***</b><a id=e-63 class="link-to-entry" href="#e-63">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:23.132454 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.380.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8341
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:24.138 ***</b><a id=e-64 class="link-to-entry" href="#e-64">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:24.138125 ===
+** Generic server &lt;0.383.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:24.139 ***</b><a id=e-65 class="link-to-entry" href="#e-65">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:24.139151 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.383.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8352
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:24.642 ***</b><a id=e-66 class="link-to-entry" href="#e-66">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:24.642003 ===
+** Generic server &lt;0.386.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:24.642 ***</b><a id=e-67 class="link-to-entry" href="#e-67">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:24.642619 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.386.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8342
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:25.648 ***</b><a id=e-68 class="link-to-entry" href="#e-68">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:25.647969 ===
+** Generic server &lt;0.389.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:25.648 ***</b><a id=e-69 class="link-to-entry" href="#e-69">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:25.648704 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.389.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8353
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:26.151 ***</b><a id=e-70 class="link-to-entry" href="#e-70">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:26.151057 ===
+** Generic server &lt;0.392.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:26.152 ***</b><a id=e-71 class="link-to-entry" href="#e-71">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:26.151860 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.392.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8350
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:27.157 ***</b><a id=e-72 class="link-to-entry" href="#e-72">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:27.156948 ===
+** Generic server &lt;0.395.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:27.157 ***</b><a id=e-73 class="link-to-entry" href="#e-73">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:27.157614 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_action/2
+    pid: &lt;0.395.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8352
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:27.661 ***</b><a id=e-74 class="link-to-entry" href="#e-74">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:27.661020 ===
+** Generic server &lt;0.398.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:27.661 ***</b><a id=e-75 class="link-to-entry" href="#e-75">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:27.661585 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.398.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8068
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:28.667 ***</b><a id=e-76 class="link-to-entry" href="#e-76">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:28.667008 ===
+** Generic server &lt;0.401.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:28.667 ***</b><a id=e-77 class="link-to-entry" href="#e-77">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:28.667501 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.401.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8070
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:29.171 ***</b><a id=e-78 class="link-to-entry" href="#e-78">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:29.170969 ===
+** Generic server &lt;0.404.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:29.171 ***</b><a id=e-79 class="link-to-entry" href="#e-79">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:29.171451 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.404.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8069
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:30.177 ***</b><a id=e-80 class="link-to-entry" href="#e-80">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:30.177022 ===
+** Generic server &lt;0.408.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:30.177 ***</b><a id=e-81 class="link-to-entry" href="#e-81">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:30.177491 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.408.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8071
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:30.680 ***</b><a id=e-82 class="link-to-entry" href="#e-82">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:30.679984 ===
+** Generic server &lt;0.410.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:30.680 ***</b><a id=e-83 class="link-to-entry" href="#e-83">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:30.680331 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.410.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8070
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:31.685 ***</b><a id=e-84 class="link-to-entry" href="#e-84">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:31.685038 ===
+** Generic server &lt;0.413.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:31.685 ***</b><a id=e-85 class="link-to-entry" href="#e-85">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:31.685414 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.413.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8072
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:32.188 ***</b><a id=e-86 class="link-to-entry" href="#e-86">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:32.188326 ===
+** Generic server &lt;0.416.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:32.189 ***</b><a id=e-87 class="link-to-entry" href="#e-87">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:32.189007 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.416.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8076
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:33.194 ***</b><a id=e-88 class="link-to-entry" href="#e-88">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:33.194177 ===
+** Generic server &lt;0.419.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:33.196 ***</b><a id=e-89 class="link-to-entry" href="#e-89">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:33.195116 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.419.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8078
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:33.700 ***</b><a id=e-90 class="link-to-entry" href="#e-90">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:33.700310 ===
+** Generic server &lt;0.423.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:33.701 ***</b><a id=e-91 class="link-to-entry" href="#e-91">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:33.701669 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.423.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8077
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:34.707 ***</b><a id=e-92 class="link-to-entry" href="#e-92">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:34.706944 ===
+** Generic server &lt;0.425.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:34.707 ***</b><a id=e-93 class="link-to-entry" href="#e-93">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:34.707287 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.425.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8079
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:35.209 ***</b><a id=e-94 class="link-to-entry" href="#e-94">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:35.208939 ===
+** Generic server &lt;0.428.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:35.209 ***</b><a id=e-95 class="link-to-entry" href="#e-95">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:35.209503 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.428.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8080
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:36.215 ***</b><a id=e-96 class="link-to-entry" href="#e-96">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:36.215075 ===
+** Generic server &lt;0.431.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:36.215 ***</b><a id=e-97 class="link-to-entry" href="#e-97">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:36.215675 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.431.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8082
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:36.719 ***</b><a id=e-98 class="link-to-entry" href="#e-98">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:36.719063 ===
+** Generic server &lt;0.434.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:36.719 ***</b><a id=e-99 class="link-to-entry" href="#e-99">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:36.719426 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.434.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8327
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:37.725 ***</b><a id=e-100 class="link-to-entry" href="#e-100">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:37.725037 ===
+** Generic server &lt;0.437.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:37.725 ***</b><a id=e-101 class="link-to-entry" href="#e-101">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:37.725386 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.437.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8334
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:38.228 ***</b><a id=e-102 class="link-to-entry" href="#e-102">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:38.228054 ===
+** Generic server &lt;0.440.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:38.228 ***</b><a id=e-103 class="link-to-entry" href="#e-103">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:38.228421 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.440.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8328
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:39.233 ***</b><a id=e-104 class="link-to-entry" href="#e-104">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:39.232984 ===
+** Generic server &lt;0.443.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:39.233 ***</b><a id=e-105 class="link-to-entry" href="#e-105">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:39.233342 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.443.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8335
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:39.735 ***</b><a id=e-106 class="link-to-entry" href="#e-106">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:39.735059 ===
+** Generic server &lt;0.446.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:39.735 ***</b><a id=e-107 class="link-to-entry" href="#e-107">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:39.735834 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.446.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8329
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:40.741 ***</b><a id=e-108 class="link-to-entry" href="#e-108">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:40.741035 ===
+** Generic server &lt;0.449.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:40.741 ***</b><a id=e-109 class="link-to-entry" href="#e-109">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:40.741393 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.449.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8336
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:41.244 ***</b><a id=e-110 class="link-to-entry" href="#e-110">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:41.243933 ===
+** Generic server &lt;0.452.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:41.244 ***</b><a id=e-111 class="link-to-entry" href="#e-111">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:41.244327 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.452.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8335
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:42.249 ***</b><a id=e-112 class="link-to-entry" href="#e-112">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:42.248941 ===
+** Generic server &lt;0.455.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:42.249 ***</b><a id=e-113 class="link-to-entry" href="#e-113">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:42.249304 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.455.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8342
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:42.752 ***</b><a id=e-114 class="link-to-entry" href="#e-114">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:42.751864 ===
+** Generic server &lt;0.458.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:42.752 ***</b><a id=e-115 class="link-to-entry" href="#e-115">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:42.752413 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.458.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8336
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:43.757 ***</b><a id=e-116 class="link-to-entry" href="#e-116">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:43.757257 ===
+** Generic server &lt;0.461.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:43.757 ***</b><a id=e-117 class="link-to-entry" href="#e-117">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:43.757631 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.461.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8343
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:44.260 ***</b><a id=e-118 class="link-to-entry" href="#e-118">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:44.259933 ===
+** Generic server &lt;0.464.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:44.260 ***</b><a id=e-119 class="link-to-entry" href="#e-119">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:44.260312 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.464.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8339
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:45.265 ***</b><a id=e-120 class="link-to-entry" href="#e-120">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:14:45.264949 ===
+** Generic server &lt;0.467.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client &lt;0.325.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,'-start_event_timeout/1-fun-5-',1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,402}]},
+    {lists,foreach_1,2,[{file,"lists.erl"},{line,2641}]},
+    {gen_server_copy_SUITE,start_event_timeout,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,375}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:start_event_timeout/1 2025-08-22 16:14:45.265 ***</b><a id=e-121 class="link-to-entry" href="#e-121">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:14:45.265276 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.467.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.325.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.325.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 8346
+  neighbours:
+
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 16:14:45
+=== successfully completed test case
+=== === Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 16:14:09<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_copy_SUITE:undef_in_terminate result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_copy_suite.src.html#undef_in_terminate-1">gen_server_copy_SUITE:undef_in_terminate/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.273.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/gen_server_copy_suite.undef_in_terminate.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49"
+
+=== Started at 2025-08-22 16:16:57
+
+<br />
+init(state) -&gt; {undef_in_terminate,{oc_server,terminate}}
+
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:undef_in_terminate/1 2025-08-22 16:16:57.173 ***</b><a id=e-371 class="link-to-entry" href="#e-371">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:57.173691 ===
+** Generic server &lt;0.6111.0&gt; terminating 
+** Last message in was []
+** When Server state == {formatted,{undef_in_terminate,{oc_server,terminate}}}
+** Reason for termination ==
+** {'function not exported',
+       [{oc_server,terminate,[],[]},
+        {gen_server_copy_SUITE,terminate,2,
+            [{file,"gen_server_copy_SUITE.erl"},{line,3532}]},
+        {gen_server_copy,try_terminate,3,
+            [{file,
+                 "c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+             {line,2482}]},
+        {gen_server_copy,terminate,9,
+            [{file,
+                 "c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+             {line,2733}]},
+        {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,333}]}]}
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:undef_in_terminate/1 2025-08-22 16:16:57.174 ***</b><a id=e-372 class="link-to-entry" href="#e-372">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:57.173939 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: &lt;0.6111.0&gt;
+    registered_name: []
+    exception error: undefined function oc_server:terminate/0
+      in function  gen_server_copy_SUITE:terminate/2 (gen_server_copy_SUITE.erl:3532)
+      in call from gen_server_copy:try_terminate/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2482)
+      in call from gen_server_copy:terminate/9 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2733)
+    ancestors: [&lt;0.6109.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6638
+  neighbours:
+
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 16:16:57
+=== successfully completed test case
+=== === Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 16:16:57<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

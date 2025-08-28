@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_SUITE:otp_5854 result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_suite.src.html#otp_5854-1">gen_server_SUITE:otp_5854/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.286.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/gen_server_suite.otp_5854.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28"
+
+=== Started at 2025-08-22 15:17:11
+
+<br />
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:otp_5854/1 2025-08-22 15:17:11.369 ***</b><a id=e-279 class="link-to-entry" href="#e-279">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:17:11.369007 ===
+  crasher:
+    initial call: gen_server_SUITE:spec_init_local/2
+    pid: &lt;0.5406.0&gt;
+    registered_name: []
+    exception exit: process_not_registered
+      in function  gen:get_proc_name/1 (gen.erl:673)
+      in call from gen_server:enter_loop/5 (gen_server.erl:2208)
+    ancestors: [armitage]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5403.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 35
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:otp_5854/1 2025-08-22 15:17:11.370 ***</b><a id=e-280 class="link-to-entry" href="#e-280">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:17:11.370010 ===
+  crasher:
+    initial call: gen_server_SUITE:spec_init_global/2
+    pid: &lt;0.5408.0&gt;
+    registered_name: []
+    exception exit: process_not_registered_globally
+      in function  gen:get_proc_name/1 (gen.erl:682)
+      in call from gen_server:enter_loop/5 (gen_server.erl:2208)
+    ancestors: [&lt;0.5403.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5403.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 52
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:otp_5854/1 2025-08-22 15:17:11.370 ***</b><a id=e-281 class="link-to-entry" href="#e-281">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:17:11.370702 ===
+  crasher:
+    initial call: gen_server_SUITE:spec_init_via/2
+    pid: &lt;0.5410.0&gt;
+    registered_name: []
+    exception exit: {process_not_registered_via,dummy_via}
+      in function  gen:get_proc_name/1 (gen.erl:691)
+      in call from gen_server:enter_loop/5 (gen_server.erl:2208)
+    ancestors: [&lt;0.5403.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5403.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 45
+  neighbours:
+
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 15:17:11
+=== successfully completed test case
+=== === Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 15:17:11<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

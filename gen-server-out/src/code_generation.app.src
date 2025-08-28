@@ -1,0 +1,13 @@
+{application, code_generation, [
+    {description, "An OTP application for the automatic code generation of gen-server module"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    % { mod, {code_generation_app, [benchmark]}},
+    {mod, {code_generation_app, [quickcheck, [{state_persistency_test, 0, []}, {mutual_exclusion_test, 0, []}]  ]}},
+    % {mod, {code_generation_app, [test, [{state_persistency, 1, [100]}] ]}},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {modules, [gen_server_eqc_test]},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.

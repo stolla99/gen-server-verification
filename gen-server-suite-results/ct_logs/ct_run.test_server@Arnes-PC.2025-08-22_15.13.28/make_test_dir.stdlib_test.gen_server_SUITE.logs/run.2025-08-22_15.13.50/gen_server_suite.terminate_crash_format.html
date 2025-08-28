@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_SUITE:terminate_crash_format result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_suite.src.html#terminate_crash_format-1">gen_server_SUITE:terminate_crash_format/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.5973.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/gen_server_suite.terminate_crash_format.html"},
+     {tc_group_properties,[{name,format_status}]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28/make_test_dir.stdlib_test.gen_server_SUITE.logs/run.2025-08-22_15.13.50/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_15.13.28"
+
+=== Started at 2025-08-22 15:17:15
+
+<br />
+init(state) -&gt; crash_terminate
+
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:terminate_crash_format/1 in format_status 2025-08-22 15:17:15.887 ***</b><a id=e-338 class="link-to-entry" href="#e-338">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:17:15.887122 ===
+** Generic server &lt;0.6013.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,crash_terminate}
+** Reason for termination ==
+** {{crash,terminate},
+    [{gen_server_SUITE,terminate,2,
+                       [{file,"gen_server_SUITE.erl"},{line,3530}]},
+     {gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,2482}]},
+     {gen_server,terminate,9,[{file,"gen_server.erl"},{line,2733}]},
+     {gen_server,handle_msg,3,[{file,"gen_server.erl"},{line,2513}]},
+     {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,333}]}]}
+** Client &lt;0.6011.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,terminate_crash_format,1,
+                      [{file,"gen_server_SUITE.erl"},{line,2397}]},
+    {gen_server_SUITE,terminate_crash_format,1,
+                      [{file,"gen_server_SUITE.erl"},{line,2391}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+init(state) -&gt; crash_terminate
+
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:terminate_crash_format/1 in format_status 2025-08-22 15:17:15.888 ***</b><a id=e-339 class="link-to-entry" href="#e-339">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:17:15.888132 ===
+  crasher:
+    initial call: gen_server_SUITE:init/1
+    pid: &lt;0.6013.0&gt;
+    registered_name: []
+    exception exit: {crash,terminate}
+      in function  gen_server_SUITE:terminate/2 (gen_server_SUITE.erl:3530)
+      in call from gen_server:try_terminate/3 (gen_server.erl:2482)
+      in call from gen_server:terminate/9 (gen_server.erl:2733)
+      in call from gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.6011.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.6011.0&gt;]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 10743
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2025-08-22 15:17:15.893 ***</b><a id=e-340 class="link-to-entry" href="#e-340">&#x1f517;</a>
+format_status(#{message => stop,
+                reason => {crash,terminate},
+                log => [],state => crash_terminate})
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:terminate_crash_format/1 in format_status 2025-08-22 15:17:15.894 ***</b><a id=e-341 class="link-to-entry" href="#e-341">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::15:17:15.893988 ===
+** Generic server &lt;0.6015.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,crash_terminate}
+** Reason for termination ==
+** {{crash,terminate},
+    [{gen_server_SUITE,terminate,2,
+                       [{file,"gen_server_SUITE.erl"},{line,3530}]},
+     {gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,2482}]},
+     {gen_server,terminate,9,[{file,"gen_server.erl"},{line,2733}]},
+     {gen_server,handle_msg,3,[{file,"gen_server.erl"},{line,2513}]},
+     {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,333}]}]}
+** Client &lt;0.6011.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server,call,2,[{file,"gen_server.erl"},{line,1217}]},
+    {gen_server_SUITE,terminate_crash_format,1,
+                      [{file,"gen_server_SUITE.erl"},{line,2397}]},
+    {gen_server_SUITE,terminate_crash_format,1,
+                      [{file,"gen_server_SUITE.erl"},{line,2392}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_SUITE:terminate_crash_format/1 in format_status 2025-08-22 15:17:15.895 ***</b><a id=e-342 class="link-to-entry" href="#e-342">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::15:17:15.895060 ===
+  crasher:
+    initial call: format_status_server:init/1
+    pid: &lt;0.6015.0&gt;
+    registered_name: []
+    exception exit: {crash,terminate}
+      in function  gen_server_SUITE:terminate/2 (gen_server_SUITE.erl:3530)
+      in call from gen_server:try_terminate/3 (gen_server.erl:2482)
+      in call from gen_server:terminate/9 (gen_server.erl:2733)
+      in call from gen_server:handle_msg/3 (gen_server.erl:2513)
+    ancestors: [&lt;0.6011.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.6011.0&gt;]
+    dictionary: [{log_timestamp,{1755,868635,893702}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 11300
+  neighbours:
+
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 15:17:15
+=== successfully completed test case
+=== === Returned value: true
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 15:17:15<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

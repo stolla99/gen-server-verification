@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_copy_SUITE:multicall_remote_old1 result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_copy_suite.src.html#multicall_remote_old1-1">gen_server_copy_SUITE:multicall_remote_old1/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.941.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/gen_server_copy_suite.multicall_remote_old1.194.html"},
+     {tc_group_properties,[{name,multi_call_parallel},parallel]},
+     {tc_group_path,[[{name,multi_call}]]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49"
+
+=== Started at 2025-08-22 16:15:37
+
+<br />
+
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.441 ***</b><a id=e-261 class="link-to-entry" href="#e-261">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:22.440511 ===
+Error in process <19641.103.0> on node 'gen_server_copy_SUITE-multicall_remote_old_test-579-174678@Arnes-PC' with exit value:
+{undef,[{gen_server_copy,start_link,
+                         [{local,multicall_remote_old1},
+                          gen_server_copy_SUITE,[],[]],
+                         []},
+        {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                               [{file,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                                {line,1963}]}]}
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="ct_error_notify"><pre><b>*** CT Error Notification 2025-08-22 16:16:22.442 ***</b><a id=e-262 class="link-to-entry" href="#e-262">&#x1f517;</a>
+Error detected: {'EXIT',{undef,{...}}}
+
+<a href="#end">Full error description and stacktrace</a>
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 16:16:22
+=== Location: unknown
+=== === Reason: {'EXIT',
+                     {undef,
+                         {gen_server_copy,start_link,
+                             [{local,multicall_remote_old1},
+                              gen_server_copy_SUITE,[],[]],
+                             []}}}

@@ -1,0 +1,94 @@
+%% Analysis results:
+{  analysis_options,
+ [{callers, true},
+  {sort, acc},
+  {totals, false},
+  {details, true}]}.
+
+%                                               CNT       ACC       OWN        
+[{ totals,                                     14079,   78.160,   62.478}].  %%%
+
+
+%                                               CNT       ACC       OWN        
+[{ "<0.263.0>",                                14079,undefined,   62.478}].   %%
+
+{[{undefined,                                     0,   78.160,    0.002}],     
+ { {fprof,apply_start_stop,4},                    0,   78.160,    0.002},     %
+ [{{tester,benchmark,4},                          1,   78.158,    0.002},      
+  {suspend,                                       1,    0.000,    0.000}]}.    
+
+{[{{fprof,apply_start_stop,4},                    1,   78.158,    0.002},      
+  {{tester,benchmark,4},                       1000,    0.000,    5.618}],     
+ { {tester,benchmark,4},                       1001,   78.158,    5.620},     %
+ [{{gen_server_behaviour_simple,call,2},       1001,   72.538,   10.955},      
+  {{tester,benchmark,4},                       1000,    0.000,    5.618}]}.    
+
+{[{{tester,benchmark,4},                       1001,   72.538,   10.955}],     
+ { {gen_server_behaviour_simple,call,2},       1001,   72.538,   10.955},     %
+ [{{gen,call,4},                               1001,   42.935,    2.919},      
+  {{lists,nth,2},                              2002,   11.273,    6.116},      
+  {{util,tuple_to_list,1},                     1001,    7.372,    5.098},      
+  {garbage_collect,                               3,    0.003,    0.003}]}.    
+
+{[{{gen_server_behaviour_simple,call,2},       1001,   42.935,    2.919}],     
+ { {gen,call,4},                               1001,   42.935,    2.919},     %
+ [{{gen,do_call,4},                            1001,   40.016,   14.247}]}.    
+
+{[{{gen,call,4},                               1001,   40.016,   14.247}],     
+ { {gen,do_call,4},                            1001,   40.016,   14.247},     %
+ [{suspend,                                     995,   15.678,    0.000},      
+  {{erlang,demonitor,2},                       1001,    3.793,    3.709},      
+  {{erlang,send,3},                            1001,    3.269,    3.262},      
+  {{erlang,monitor,3},                         1001,    2.810,    2.612},      
+  {garbage_collect,                              18,    0.219,    0.219}]}.    
+
+{[{{gen,do_call,4},                             995,   15.678,    0.000},      
+  {{util,tuple_to_list,1},                        4,    0.004,    0.000},      
+  {{fprof,apply_start_stop,4},                    1,    0.000,    0.000}],     
+ { suspend,                                    1000,   15.682,    0.000},     %
+ [ ]}.
+
+{[{{gen_server_behaviour_simple,call,2},       2002,   11.273,    6.116}],     
+ { {lists,nth,2},                              2002,   11.273,    6.116},     %
+ [{{lists,nth_1,2},                            1001,    5.157,    3.093}]}.    
+
+{[{{gen_server_behaviour_simple,call,2},       1001,    7.372,    5.098}],     
+ { {util,tuple_to_list,1},                     1001,    7.372,    5.098},     %
+ [{{erlang,tuple_to_list,1},                   1001,    2.270,    2.172},      
+  {suspend,                                       4,    0.004,    0.000}]}.    
+
+{[{{lists,nth,2},                              1001,    5.157,    3.093},      
+  {{lists,nth_1,2},                            1001,    0.000,    2.064}],     
+ { {lists,nth_1,2},                            2002,    5.157,    5.157},     %
+ [{{lists,nth_1,2},                            1001,    0.000,    2.064}]}.    
+
+{[{{gen,do_call,4},                            1001,    3.793,    3.709}],     
+ { {erlang,demonitor,2},                       1001,    3.793,    3.709},     %
+ [{garbage_collect,                               9,    0.084,    0.084}]}.    
+
+{[{{gen,do_call,4},                            1001,    3.269,    3.262}],     
+ { {erlang,send,3},                            1001,    3.269,    3.262},     %
+ [{garbage_collect,                               7,    0.007,    0.007}]}.    
+
+{[{{gen,do_call,4},                            1001,    2.810,    2.612}],     
+ { {erlang,monitor,3},                         1001,    2.810,    2.612},     %
+ [{garbage_collect,                              15,    0.198,    0.198}]}.    
+
+{[{{util,tuple_to_list,1},                     1001,    2.270,    2.172}],     
+ { {erlang,tuple_to_list,1},                   1001,    2.270,    2.172},     %
+ [{garbage_collect,                              14,    0.098,    0.098}]}.    
+
+{[{{gen,do_call,4},                              18,    0.219,    0.219},      
+  {{erlang,monitor,3},                           15,    0.198,    0.198},      
+  {{erlang,tuple_to_list,1},                     14,    0.098,    0.098},      
+  {{erlang,demonitor,2},                          9,    0.084,    0.084},      
+  {{erlang,send,3},                               7,    0.007,    0.007},      
+  {{gen_server_behaviour_simple,call,2},          3,    0.003,    0.003}],     
+ { garbage_collect,                              66,    0.609,    0.609},     %
+ [ ]}.
+
+{[ ],
+ { undefined,                                     0,    0.000,    0.000},     %
+ [{{fprof,apply_start_stop,4},                    0,   78.160,    0.002}]}.    
+
+

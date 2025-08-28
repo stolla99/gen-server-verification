@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test gen_server_copy_SUITE:spec_init result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="gen_server_copy_suite.src.html#spec_init-1">gen_server_copy_SUITE:spec_init/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.273.0&gt;},
+     {tc_logfile,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/gen_server_copy_suite.spec_init.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE_data/"},
+     {priv_dir,"/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/"},
+     {nodenames,[]}]
+
+=== Current directory is "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49"
+
+=== Started at 2025-08-22 16:16:50
+
+<br />
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.679 ***</b><a id=e-269 class="link-to-entry" href="#e-269">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:50.679255 ===
+** Generic server my_server terminating 
+** Last message in was stop
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** stopped
+** Client &lt;0.5359.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,spec_init,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,2083}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.679 ***</b><a id=e-270 class="link-to-entry" href="#e-270">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.679617 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_local/2
+    pid: &lt;0.5361.0&gt;
+    registered_name: my_server
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6994
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.680 ***</b><a id=e-271 class="link-to-entry" href="#e-271">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.680006 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_local/2
+    pid: &lt;0.5363.0&gt;
+    registered_name: []
+    exception exit: process_not_registered
+      in function  gen:get_proc_name/1 (gen.erl:673)
+      in call from gen_server_copy:enter_loop/5 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2208)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 35
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.681 ***</b><a id=e-272 class="link-to-entry" href="#e-272">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:50.680985 ===
+** Generic server my_server terminating 
+** Last message in was stop
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** stopped
+** Client &lt;0.5359.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,spec_init,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,2101}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.681 ***</b><a id=e-273 class="link-to-entry" href="#e-273">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.681658 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_global/2
+    pid: &lt;0.5365.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 7020
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.682 ***</b><a id=e-274 class="link-to-entry" href="#e-274">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.682106 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_global/2
+    pid: &lt;0.5369.0&gt;
+    registered_name: []
+    exception exit: process_not_registered_globally
+      in function  gen:get_proc_name/1 (gen.erl:678)
+      in call from gen_server_copy:enter_loop/5 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2208)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 233
+    stack_size: 29
+    reductions: 38
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.683 ***</b><a id=e-275 class="link-to-entry" href="#e-275">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:50.682877 ===
+** Generic server &lt;0.5371.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** stopped
+** Client &lt;0.5359.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,spec_init,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,2121}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.683 ***</b><a id=e-276 class="link-to-entry" href="#e-276">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.683241 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_anonymous/1
+    pid: &lt;0.5371.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 7027
+  neighbours:
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.683 ***</b><a id=e-277 class="link-to-entry" href="#e-277">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:50.683852 ===
+** Generic server &lt;0.5373.0&gt; terminating 
+** Last message in was stop
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** stopped
+** Client &lt;0.5359.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,spec_init,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,2131}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.684 ***</b><a id=e-278 class="link-to-entry" href="#e-278">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.684120 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_anonymous_default_timeout/1
+    pid: &lt;0.5373.0&gt;
+    registered_name: []
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 7023
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.685 ***</b><a id=e-279 class="link-to-entry" href="#e-279">&#x1f517;</a>
+=ERROR REPORT==== 22-Aug-2025::16:16:50.684891 ===
+** Generic server my_server terminating 
+** Last message in was stop
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** stopped
+** Client &lt;0.5359.0&gt; stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,262}]},
+    {gen_server_copy,call,2,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,1217}]},
+    {gen_server_copy_SUITE,spec_init,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,2142}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:50.685 ***</b><a id=e-280 class="link-to-entry" href="#e-280">&#x1f517;</a>
+=CRASH REPORT==== 22-Aug-2025::16:16:50.685168 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_default_timeout/2
+    pid: &lt;0.5377.0&gt;
+    registered_name: my_server
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5359.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 29
+    reductions: 6995
+  neighbours:
+
+
+</pre></div>
+<pre>
+FROZ
+<a name="end"></a>
+
+
+=== Ended at 2025-08-22 16:16:51
+=== successfully completed test case
+=== === Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 16:16:50<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

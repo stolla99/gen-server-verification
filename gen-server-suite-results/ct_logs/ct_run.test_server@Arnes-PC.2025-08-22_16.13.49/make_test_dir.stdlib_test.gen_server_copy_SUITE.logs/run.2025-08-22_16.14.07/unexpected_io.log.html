@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Unexpected I/O log</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<br />
+<h3>Unexpected I/O</h3>
+<pre>
+
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:15:39.689 ***</b>
+=ERROR REPORT==== 22-Aug-2025::16:15:39.689581 ===
+** Generic server my_test_name terminating 
+** Last message in was stop
+** When Server state == {formatted,[]}
+** Reason for termination ==
+** stopped
+** Client <0.958.0> stacktrace
+** [{gen_server_copy,mc_recv,5,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,2057}]},
+    {gen_server_copy,multi_call,4,
+                     [{file,"c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl"},
+                      {line,2013}]},
+    {gen_server_copy_SUITE,multicall,1,
+                           [{file,"gen_server_copy_SUITE.erl"},{line,1793}]},
+    {test_server,ts_tc,3,[{file,"test_server.erl"},{line,1796}]},
+    {test_server,run_test_case_eval1,6,[{file,"test_server.erl"},{line,1305}]},
+    {test_server,run_test_case_eval,9,[{file,"test_server.erl"},{line,1237}]}]
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:15:39.690 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:15:39.689918 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:init/1
+    pid: <0.963.0>
+    registered_name: my_test_name
+    exception exit: stopped
+      in function  gen_server_copy:handle_msg/3 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2513)
+    ancestors: [<0.958.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.958.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 29
+    reductions: 8207
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.444 ***</b>
+=ERROR REPORT==== 22-Aug-2025::16:16:22.444007 ===
+** Generic server <0.1002.0> terminating 
+** Last message in was {'EXIT',<0.957.0>,
+                        {undef,
+                         [{gen_server_copy,start_link,
+                           [{local,multicall_remote_old1},
+                            gen_server_copy_SUITE,[],[]],
+                           []},
+                          {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                           [{file,
+                             "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                            {line,1963}]}]}}
+** When Server state == {peer_state,#{args =>
+                                          ["-setcookie",
+                                           "HPUNFGAEFQCHTPEMZRTM","-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                           "-env","ERL_CRASH_DUMP",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-579-174678",
+                                           "-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-1"],
+                                      env => [{"ERL_AFLAGS",false}],
+                                      name =>
+                                          "gen_server_copy_SUITE-multicall_remote_old_test-579-174678",
+                                      connection => 0,
+                                      exec => "/usr/local/bin/erl",
+                                      start_cover => false},
+                                    'gen_server_copy_SUITE-multicall_remote_old_test-579-174678@Arnes-PC',
+                                    "/usr/local/bin/erl",
+                                    ["-sname",
+                                     "gen_server_copy_SUITE-multicall_remote_old_test-579-174678",
+                                     "-setcookie","HPUNFGAEFQCHTPEMZRTM",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                     "-env","ERL_CRASH_DUMP",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-579-174678",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-1",
+                                     "-detached","-peer_detached","-user",
+                                     "peer","-origin",
+                                     "::1,127.0.0.1,fe80::215:5dff:fe4b:185a,172.27.38.66,10.255.255.254",
+                                     "34509"],
+                                    #Port<0.57>,undefined,<<>>,running,
+                                    {<0.957.0>,
+                                     #Ref<0.2770636464.3153068034.243289>},
+                                    0,#{}}
+** Reason for termination ==
+** {undef,
+       [{gen_server_copy,start_link,
+            [{local,multicall_remote_old1},gen_server_copy_SUITE,[],[]],
+            []},
+        {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+            [{file,
+                 "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+             {line,1963}]}]}
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.445 ***</b>
+=ERROR REPORT==== 22-Aug-2025::16:16:22.444007 ===
+** Generic server <0.1003.0> terminating 
+** Last message in was {'EXIT',<0.957.0>,
+                        {undef,
+                         [{gen_server_copy,start_link,
+                           [{local,multicall_remote_old1},
+                            gen_server_copy_SUITE,[],[]],
+                           []},
+                          {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                           [{file,
+                             "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                            {line,1963}]}]}}
+** When Server state == {peer_state,#{args =>
+                                          ["-setcookie",
+                                           "HPUNFGAEFQCHTPEMZRTM","-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                           "-env","ERL_CRASH_DUMP",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-611-174678",
+                                           "-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-2"],
+                                      env => [{"ERL_AFLAGS",false}],
+                                      name =>
+                                          "gen_server_copy_SUITE-multicall_remote_old_test-611-174678",
+                                      connection => 0,
+                                      exec => "/usr/local/bin/erl",
+                                      start_cover => false},
+                                    'gen_server_copy_SUITE-multicall_remote_old_test-611-174678@Arnes-PC',
+                                    "/usr/local/bin/erl",
+                                    ["-sname",
+                                     "gen_server_copy_SUITE-multicall_remote_old_test-611-174678",
+                                     "-setcookie","HPUNFGAEFQCHTPEMZRTM",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                     "-env","ERL_CRASH_DUMP",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-611-174678",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-2",
+                                     "-detached","-peer_detached","-user",
+                                     "peer","-origin",
+                                     "::1,127.0.0.1,fe80::215:5dff:fe4b:185a,172.27.38.66,10.255.255.254",
+                                     "39851"],
+                                    #Port<0.75>,undefined,<<>>,running,
+                                    {<0.957.0>,
+                                     #Ref<0.2770636464.3153068034.243458>},
+                                    0,#{}}
+** Reason for termination ==
+** {undef,
+       [{gen_server_copy,start_link,
+            [{local,multicall_remote_old1},gen_server_copy_SUITE,[],[]],
+            []},
+        {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+            [{file,
+                 "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+             {line,1963}]}]}
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.445 ***</b>
+=ERROR REPORT==== 22-Aug-2025::16:16:22.444954 ===
+** Generic server <0.1004.0> terminating 
+** Last message in was {'EXIT',<0.957.0>,
+                        {undef,
+                         [{gen_server_copy,start_link,
+                           [{local,multicall_remote_old1},
+                            gen_server_copy_SUITE,[],[]],
+                           []},
+                          {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                           [{file,
+                             "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                            {line,1963}]}]}}
+** When Server state == {peer_state,#{args =>
+                                          ["-setcookie",
+                                           "HPUNFGAEFQCHTPEMZRTM","-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                           "-env","ERL_CRASH_DUMP",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-643-174678",
+                                           "-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-3"],
+                                      env => [{"ERL_AFLAGS",false}],
+                                      name =>
+                                          "gen_server_copy_SUITE-multicall_remote_old_test-643-174678",
+                                      connection => 0,
+                                      exec => "/usr/local/bin/erl",
+                                      start_cover => false},
+                                    'gen_server_copy_SUITE-multicall_remote_old_test-643-174678@Arnes-PC',
+                                    "/usr/local/bin/erl",
+                                    ["-sname",
+                                     "gen_server_copy_SUITE-multicall_remote_old_test-643-174678",
+                                     "-setcookie","HPUNFGAEFQCHTPEMZRTM",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                     "-env","ERL_CRASH_DUMP",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-643-174678",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-3",
+                                     "-detached","-peer_detached","-user",
+                                     "peer","-origin",
+                                     "::1,127.0.0.1,fe80::215:5dff:fe4b:185a,172.27.38.66,10.255.255.254",
+                                     "34349"],
+                                    #Port<0.80>,undefined,<<>>,running,
+                                    {<0.957.0>,
+                                     #Ref<0.2770636464.3153068034.243478>},
+                                    0,#{}}
+** Reason for termination ==
+** {undef,
+       [{gen_server_copy,start_link,
+            [{local,multicall_remote_old1},gen_server_copy_SUITE,[],[]],
+            []},
+        {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+            [{file,
+                 "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+             {line,1963}]}]}
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="error_logger"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.446 ***</b>
+=ERROR REPORT==== 22-Aug-2025::16:16:22.444999 ===
+** Generic server <0.1005.0> terminating 
+** Last message in was {'EXIT',<0.957.0>,
+                        {undef,
+                         [{gen_server_copy,start_link,
+                           [{local,multicall_remote_old1},
+                            gen_server_copy_SUITE,[],[]],
+                           []},
+                          {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                           [{file,
+                             "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                            {line,1963}]}]}}
+** When Server state == {peer_state,#{args =>
+                                          ["-setcookie",
+                                           "HPUNFGAEFQCHTPEMZRTM","-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                           "-env","ERL_CRASH_DUMP",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-675-174678",
+                                           "-pa",
+                                           "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-4"],
+                                      env => [{"ERL_AFLAGS",false}],
+                                      name =>
+                                          "gen_server_copy_SUITE-multicall_remote_old_test-675-174678",
+                                      connection => 0,
+                                      exec => "/usr/local/bin/erl",
+                                      start_cover => false},
+                                    'gen_server_copy_SUITE-multicall_remote_old_test-675-174678@Arnes-PC',
+                                    "/usr/local/bin/erl",
+                                    ["-sname",
+                                     "gen_server_copy_SUITE-multicall_remote_old_test-675-174678",
+                                     "-setcookie","HPUNFGAEFQCHTPEMZRTM",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test",
+                                     "-env","ERL_CRASH_DUMP",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/erl_crash_dump.gen_server_copy_SUITE-multicall_remote_old_test-675-174678",
+                                     "-pa",
+                                     "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/ct_logs/ct_run.test_server@Arnes-PC.2025-08-22_16.13.49/make_test_dir.stdlib_test.gen_server_copy_SUITE.logs/run.2025-08-22_16.14.07/log_private/multicall_remote_old1-4",
+                                     "-detached","-peer_detached","-user",
+                                     "peer","-origin",
+                                     "::1,127.0.0.1,fe80::215:5dff:fe4b:185a,172.27.38.66,10.255.255.254",
+                                     "46749"],
+                                    #Port<0.85>,undefined,<<>>,running,
+                                    {<0.957.0>,
+                                     #Ref<0.2770636464.3153068034.243498>},
+                                    0,#{}}
+** Reason for termination ==
+** {undef,
+       [{gen_server_copy,start_link,
+            [{local,multicall_remote_old1},gen_server_copy_SUITE,[],[]],
+            []},
+        {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+            [{file,
+                 "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+             {line,1963}]}]}
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.446 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:16:22.445183 ===
+  crasher:
+    initial call: peer:init/1
+    pid: <0.1002.0>
+    registered_name: []
+    exception exit: {undef,
+                        [{gen_server_copy,start_link,
+                             [{local,multicall_remote_old1},
+                              gen_server_copy_SUITE,[],[]],
+                             []},
+                         {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                             [{file,
+                                  "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                              {line,1963}]}]}
+      in function  gen_server:decode_msg/6 (gen_server.erl:2379)
+    ancestors: [<0.957.0>]
+    message_queue_len: 3
+    messages: [{nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-611-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-675-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-643-174678@Arnes-PC',
+                            [{node_type,visible}]}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 17731
+    stack_size: 29
+    reductions: 26770
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.446 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:16:22.446107 ===
+  crasher:
+    initial call: peer:init/1
+    pid: <0.1003.0>
+    registered_name: []
+    exception exit: {undef,
+                        [{gen_server_copy,start_link,
+                             [{local,multicall_remote_old1},
+                              gen_server_copy_SUITE,[],[]],
+                             []},
+                         {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                             [{file,
+                                  "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                              {line,1963}]}]}
+      in function  gen_server:decode_msg/6 (gen_server.erl:2379)
+    ancestors: [<0.957.0>]
+    message_queue_len: 3
+    messages: [{nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-579-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-675-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-643-174678@Arnes-PC',
+                            [{node_type,visible}]}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 17731
+    stack_size: 29
+    reductions: 26774
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.446 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:16:22.446338 ===
+  crasher:
+    initial call: peer:init/1
+    pid: <0.1004.0>
+    registered_name: []
+    exception exit: {undef,
+                        [{gen_server_copy,start_link,
+                             [{local,multicall_remote_old1},
+                              gen_server_copy_SUITE,[],[]],
+                             []},
+                         {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                             [{file,
+                                  "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                              {line,1963}]}]}
+      in function  gen_server:decode_msg/6 (gen_server.erl:2379)
+    ancestors: [<0.957.0>]
+    message_queue_len: 3
+    messages: [{nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-611-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-579-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-675-174678@Arnes-PC',
+                            [{node_type,visible}]}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 17731
+    stack_size: 29
+    reductions: 26777
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during multi_call_parallel in gen_server_copy_SUITE 2025-08-22 16:16:22.448 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:16:22.447180 ===
+  crasher:
+    initial call: peer:init/1
+    pid: <0.1005.0>
+    registered_name: []
+    exception exit: {undef,
+                        [{gen_server_copy,start_link,
+                             [{local,multicall_remote_old1},
+                              gen_server_copy_SUITE,[],[]],
+                             []},
+                         {gen_server_copy_SUITE,multicall_srv_ctrlr,2,
+                             [{file,
+                                  "/mnt/c/Users/arnes/OneDrive/25Semester/otp/otp/lib/stdlib/make_test_dir/stdlib_test/gen_server_copy_SUITE.erl"},
+                              {line,1963}]}]}
+      in function  gen_server:decode_msg/6 (gen_server.erl:2379)
+    ancestors: [<0.957.0>]
+    message_queue_len: 3
+    messages: [{nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-611-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-579-174678@Arnes-PC',
+                            [{node_type,visible}]},
+                  {nodedown,'gen_server_copy_SUITE-multicall_remote_old_test-643-174678@Arnes-PC',
+                            [{node_type,visible}]}]
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 17731
+    stack_size: 29
+    reductions: 26776
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:51.687 ***</b>
+=ERROR REPORT==== 22-Aug-2025::16:16:51.686844 ===
+** Generic server hurra terminating 
+** Last message in was {'EXIT',&lt;0.5359.0&gt;,
+                               {#Ref&lt;0.2770636464.3153330177.28626&gt;,1007676,
+                                ok,
+                                [{gen_server_copy_SUITE,spec_init}],
+                                []}}
+** When Server state == {formatted,{}}
+** Reason for termination ==
+** {#Ref&lt;0.2770636464.3153330177.28626&gt;,1007676,ok,
+    [{gen_server_copy_SUITE,spec_init}],
+    []}
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init/1 2025-08-22 16:16:51.687 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:16:51.687124 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_global_default_timeout/2
+    pid: &lt;0.5379.0&gt;
+    registered_name: []
+    exception exit: {#Ref&lt;0.2770636464.3153330177.28626&gt;,1007676,ok,
+                     [{gen_server_copy_SUITE,spec_init}],
+                     []}
+      in function  gen_server_copy:decode_msg/6 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2379)
+    ancestors: [&lt;0.5359.0&gt;]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 4303
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<div class="sasl"><pre><b>*** System report during gen_server_copy_SUITE:spec_init_local_registered_parent/1 2025-08-22 16:16:51.724 ***</b>
+=CRASH REPORT==== 22-Aug-2025::16:16:51.724073 ===
+  crasher:
+    initial call: gen_server_copy_SUITE:spec_init_local/2
+    pid: &lt;0.5385.0&gt;
+    registered_name: my_server
+    exception exit: {&lt;0.5383.0&gt;,stopped}
+      in function  gen_server_copy:handle_common_reply/5 (c:/Users/arnes/dev/erlang-masterthesis/broadcast/src/common/copy/gen_server_copy.erl:2562)
+    ancestors: [foobar]
+    message_queue_len: 0
+    messages: []
+    links: [&lt;0.5383.0&gt;]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 29
+    reductions: 3214
+  neighbours:
+
+
+</pre></div>
+<pre>
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2025 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Fri Aug 22 2025 16:14:07<!--/date--><br />
+</div>
+</center>
+</body>
+</html>
