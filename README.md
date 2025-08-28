@@ -7,11 +7,9 @@
   <h3 align="center">Master Thesis: Modeling and Verifying Erlang's GenServer with TLA+</h3>
 
   <p align="center">
-    <a href="https://github.com">View Demo</a>
+    <a href="https://github.com/stolla99/gen-server-verification/issues/new/choose">Report Issue</a>
     &middot;
-    <a href="https://github.com">Report Bug</a>
-    &middot;
-    <a href="https://github.com">Request Feature</a>
+    <a href="https://github.com/stolla99/gen-server-verification/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -42,8 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+[![Product Name Screen Shot][product-screenshot]](./resources/comparison.png)
 
 This repository contains the artifacts generated and used during the work on my Master’s thesis. It includes custom modules, automatically generated Erlang code, test results, translation code, and batch scripts. 
 
