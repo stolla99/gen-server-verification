@@ -86,11 +86,6 @@ For the generated GenServer that was derived from the TLA⁺ specification compa
   </tr>
 </table>
 
-<!-- CONTACT -->
-## Contact
-
- - Arne Stoll - arne.stoll.1@outlook.de 
- - Repository-Link: [stolla99/gen-server-verification](https://github.com/stolla99/gen-server-verification#)
 <p align="right">(<a href="#readme-top">↑ back to top</a>)</p>
 
 ## Credits
